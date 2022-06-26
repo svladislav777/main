@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        System.out.println("Введи число от 1 до 9, а я тебе напишу какое число ты ввел)) ");
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+
+
+        switch (number) {
+            case 1:
+                System.out.println("Your number is: One");
+                break;
+            case 2:
+                System.out.println("Your number is: Two");
+                break;
+            case 3:
+                System.out.println("Your number is: Three");
+                break;
+            case 4:
+                System.out.println("Your number is: Four");
+                break;
+            case 5:
+                System.out.println("Your number is: Five");
+                break;
+            case 6:
+                System.out.println("Your number is: Six");
+                break;
+            case 7:
+                System.out.println("Your number is: Seven");
+                break;
+            case 8:
+                System.out.println("Your number is: Eight");
+                break;
+            case 9:
+                System.out.println("Your number is: Nine");
+                break;
+
+        }
+    }
+}

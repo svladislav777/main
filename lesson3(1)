@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        System.out.println("Введи по очереди 3 числа и узнай какое из них больше");
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        Scanner scanner1 = new Scanner(System.in);
+        int number1 = scanner1.nextInt();
+        Scanner scanner2 = new Scanner(System.in);
+        int number2 = scanner2.nextInt();
+
+        if (number > number1 && number > number2) {
+            System.out.println("Вот самое большое число из 3х: " + number);
+        } else if (number2 > number1 && number2 > number) {
+            System.out.println("Вот самое большое число из 3х: " + number2);
+        } else if (number1 > number && number1 > number2) {
+            System.out.println("Вот самое большое число из 3х: " + number1);
+        }
+
+    }
+}
+
+

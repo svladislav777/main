@@ -37,7 +37,8 @@ public class Main {
             case 9:
                 System.out.println("Your number is: Nine");
                 break;
-
+            default:
+                System.out.println("Your number is out of range. Please try again.");
         }
     }
 }

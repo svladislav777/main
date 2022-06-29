@@ -12,15 +12,14 @@ public class Main {
         Scanner scanner2 = new Scanner(System.in);
         int number2 = scanner2.nextInt();
 
-        if (number > number1 && number > number2) {
+        if (number >= number1 && number >= number2) {
             System.out.println("Вот самое большое число из 3х: " + number);
-        } else if (number2 > number1 && number2 > number) {
+        } else if (number2 >= number1 && number2 >= number) {
             System.out.println("Вот самое большое число из 3х: " + number2);
-        } else if (number1 > number && number1 > number2) {
+        } else if (number1 >= number && number1 >= number2) {
             System.out.println("Вот самое большое число из 3х: " + number1);
         }
 
+
     }
 }
-
-

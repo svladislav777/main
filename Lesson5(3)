@@ -1,0 +1,68 @@
+public class Main {
+
+    public static String integerToDay(int day) {
+
+        switch (day) {
+            case 1:
+                return "Понедельник";
+
+            case 2:
+                return "Вторник";
+
+            case 3:
+                return "Среда";
+
+            case 4:
+                return "Четверг";
+
+            case 5:
+                return "Пятница";
+
+            case 6:
+                return "Суббота";
+
+            case 7:
+                return "Воскресенье";
+
+            default:
+                return "Такого дня нет! :(";
+        }
+    }
+
+    public static void main(String[] args) {
+        String result;
+        String message = " - это день недели под цифрой ";
+
+        int day = 1;
+        result = integerToDay(day);
+        System.out.println(result + message + day);
+
+        day = 2;
+        result = integerToDay(day);
+        System.out.println(result + message + day);
+
+        day = 3;
+        result = integerToDay(day);
+        System.out.println(result + message + day);
+
+        day = 4;
+        result = integerToDay(day);
+        System.out.println(result + message + day);
+
+        day = 5;
+        result = integerToDay(day);
+        System.out.println(result + message + day);
+
+        day = 6;
+        result = integerToDay(day);
+        System.out.println(result + message + day);
+
+        day = 7;
+        result = integerToDay(day);
+        System.out.println(result + message + day);
+
+        day = 8;
+        result = integerToDay(day);
+        System.out.println(result + message + day);
+    }
+}

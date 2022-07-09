@@ -1,0 +1,8 @@
+public class Main {
+
+
+    public static long multiply(int n, int m) {
+        long result = (long) n * (long) m;
+        return result;
+    }
+}

@@ -1,0 +1,12 @@
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Максимальное число это - " + getMaxInteger(12, 6, 13));
+    }
+
+    public static int getMaxInteger(int a,
+                                    int b,
+                                    int c) {
+        return Math.max(a, Math.max(b, c));
+    }
+}

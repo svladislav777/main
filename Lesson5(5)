@@ -1,0 +1,26 @@
+
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] arr = new int[30];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (int) (Math.random() * 100); // set random values to the array
+        }
+
+        System.out.println("Дан массив: " + Arrays.toString(arr));
+        System.out.println("Минимальное значение массива = " + findMinElement(arr));
+    }
+
+    static int findMinElement(int[] array) {
+        int min = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (min > array[i]) {
+                min = array[i];
+            }
+        }
+        return min;
+    }
+}
